@@ -1,0 +1,13 @@
+# Step 4 (Testing) - inference + post-processing
+weights: ../models/trained_model_weights/best.pt
+source: ../dataset/raw_videos/test_videos
+imgsz: 640
+conf: 0.10                   # val pe F1-sweep se calibrated (P=1.00 R=0.97); test pe kabhi tune nahi kiya
+iou: 0.5
+device: 0                    # = physical GPU 10 (see env.sh)
+
+post_processing:
+  temporal_smoothing: true
+  smoothing_window: 5        # 5-frame rolling median (flicker hatao)
+  min_area_ratio: 0.005      # isse chhota blob = noise
+  severity_metric: true      # spill_px / frame_px

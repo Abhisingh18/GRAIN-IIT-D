@@ -1,0 +1,21 @@
+# Grain Spillage Identification - IITD Challenge
+# Exact versions from the environment these results were produced in.
+# Python 3.10.20 | CUDA 12.1 | NVIDIA RTX 6000 Ada Generation
+#
+#   conda create -n grain python=3.10 -y
+#   pip install -r training/requirements.txt
+
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+torch==2.5.1+cu121
+torchvision==0.20.1
+ultralytics==8.4.133
+opencv-python-headless==4.11.0.86
+numpy==1.26.4
+pyyaml==6.0.3
+matplotlib==3.10.9
+pandas==2.3.3
+tqdm==4.70.0
+seaborn==0.13.2
+transformers==5.15.0
+pillow==12.3.0

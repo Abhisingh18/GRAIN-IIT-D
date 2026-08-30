@@ -1,0 +1,1250 @@
+{
+  "video": "test_3.mkv",
+  "frames": 152,
+  "records": [
+    {
+      "frame": 0,
+      "severity": 0.22535,
+      "raw_severity": 0.22535,
+      "n_instances": 1,
+      "confidences": [
+        0.156
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 1,
+      "severity": 0.22764,
+      "raw_severity": 0.22993,
+      "n_instances": 1,
+      "confidences": [
+        0.23
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 2,
+      "severity": 0.22551,
+      "raw_severity": 0.22551,
+      "n_instances": 1,
+      "confidences": [
+        0.269
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 3,
+      "severity": 0.22772,
+      "raw_severity": 0.2394,
+      "n_instances": 1,
+      "confidences": [
+        0.287
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 4,
+      "severity": 0.22993,
+      "raw_severity": 0.2347,
+      "n_instances": 1,
+      "confidences": [
+        0.307
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 5,
+      "severity": 0.2347,
+      "raw_severity": 0.23908,
+      "n_instances": 1,
+      "confidences": [
+        0.365
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 6,
+      "severity": 0.23908,
+      "raw_severity": 0.24154,
+      "n_instances": 1,
+      "confidences": [
+        0.294
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 7,
+      "severity": 0.2394,
+      "raw_severity": 0.24941,
+      "n_instances": 1,
+      "confidences": [
+        0.289
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 8,
+      "severity": 0.24154,
+      "raw_severity": 0.2457,
+      "n_instances": 1,
+      "confidences": [
+        0.324
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 9,
+      "severity": 0.24154,
+      "raw_severity": 0.2388,
+      "n_instances": 1,
+      "confidences": [
+        0.227
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 10,
+      "severity": 0.24154,
+      "raw_severity": 0.23502,
+      "n_instances": 1,
+      "confidences": [
+        0.187
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 11,
+      "severity": 0.24011,
+      "raw_severity": 0.24011,
+      "n_instances": 1,
+      "confidences": [
+        0.195
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 12,
+      "severity": 0.2388,
+      "raw_severity": 0.22759,
+      "n_instances": 1,
+      "confidences": [
+        0.16
+      ],
+      "spill_detected": true
+    },
+    {
+      "frame": 13,
+      "severity": 0.23502,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": true
+    },
+    {
+      "frame": 14,
+      "severity": 0.22759,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": true
+    },
+    {
+      "frame": 15,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 16,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 17,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 18,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 19,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 20,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 21,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 22,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 23,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 24,
+      "severity": 0.0,
+      "raw_severity": 0.23853,
+      "n_instances": 1,
+      "confidences": [
+        0.112
+      ],
+      "spill_detected": false
+    },
+    {
+      "frame": 25,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 26,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 27,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 28,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 29,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 30,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 31,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 32,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 33,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 34,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 35,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 36,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 37,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 38,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 39,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 40,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 41,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 42,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 43,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 44,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 45,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 46,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 47,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 48,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 49,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 50,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 51,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 52,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 53,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 54,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 55,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 56,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 57,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 58,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 59,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 60,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 61,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 62,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 63,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 64,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 65,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 66,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 67,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 68,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 69,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 70,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 71,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 72,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 73,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 74,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 75,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 76,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 77,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 78,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 79,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 80,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 81,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 82,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 83,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 84,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 85,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 86,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 87,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 88,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 89,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 90,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 91,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 92,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 93,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 94,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 95,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 96,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 97,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 98,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 99,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 100,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 101,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 102,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 103,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 104,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 105,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 106,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 107,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 108,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 109,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 110,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 111,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 112,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 113,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 114,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 115,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 116,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 117,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 118,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 119,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 120,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 121,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 122,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 123,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 124,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 125,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 126,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 127,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 128,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 129,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 130,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 131,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 132,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 133,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 134,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 135,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 136,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 137,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 138,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 139,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 140,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 141,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 142,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 143,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 144,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 145,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 146,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 147,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 148,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 149,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 150,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    },
+    {
+      "frame": 151,
+      "severity": 0.0,
+      "raw_severity": 0.0,
+      "n_instances": 0,
+      "confidences": [],
+      "spill_detected": false
+    }
+  ]
+}

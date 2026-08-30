@@ -1,0 +1,4 @@
+video,frames,inference_time_s,fps,mean_severity,max_severity,spill_frames
+test_1.mkv,99,3.10,31.92,0.00000,0.00000,0
+test_2.mkv,100,1.32,75.97,0.00000,0.00000,0
+test_3.mkv,152,5.17,29.39,0.02313,0.24154,15

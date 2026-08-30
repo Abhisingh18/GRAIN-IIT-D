@@ -1,0 +1,7 @@
+# YOLO dataset config - Step 2 (Dataset Preparation)
+path: /speech/abhishek/abhi_iitd/Grain_Spillage_Identification/dataset
+train: images/train
+val: images/val
+
+names:
+  0: grain_spill

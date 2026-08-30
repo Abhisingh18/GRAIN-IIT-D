@@ -1,0 +1,76 @@
+Dataset Description - Grain Spillage Identification (IITD Challenge)
+=====================================================================
+
+1. SOURCE DATA
+--------------
+CCTV footage, grain godown (watermark: "Sparsh"). Timestamps 2025-07-04 se
+2025-09-19, time-of-day 09:32 se 22:01 - lighting bahut vary karti hai.
+
+Train videos : 12   (dataset/raw_videos/train_videos/)
+Test  videos : 3    (dataset/raw_videos/test_videos/)
+Total        : ~3.9 minutes
+
+Do camera types:
+  HD cam : 2592x1944, 10-20 fps  -> train_1..train_5, test_3
+  SD cam :  704x576,  15-25 fps  -> train_6..train_12, test_1, test_2
+Dono resolutions training me honi chahiye, warna test pe domain gap aayega.
+
+2. ANNOTATION METHODOLOGY
+-------------------------
+Task formulation : Instance segmentation (polygon masks)
+Classes          : 1  -> `grain_spill`
+Format           : YOLO-seg  (class x1 y1 x2 y2 ... normalized 0-1)
+Tool             : Spill Mask Workbench (custom browser polygon tool,
+                   analysis/ me source; keyframes pe manual tracing)
+
+Annotation rule (consistency ke liye - har frame pe yahi lagana hai):
+  IN : floor pe pada loose grain jahan continuous parat ho
+  OUT: bori ke upar jama dhool/grain
+  OUT: patli dusting jahan floor ka texture saaf dikhta ho
+  NOTE: mazdoor/object upar ho to mask continuous rakho, kaato mat
+
+Kyun segmentation aur bbox nahi: spill ka koi fixed shape/aspect ratio nahi
+hai. Bbox me 40-60% area floor aur bori ka aa jaata hai, jisse training
+signal kharab hota hai aur IoU bhi model quality reflect nahi karta.
+
+3. PREPROCESSING
+----------------
+Frame extraction : 2 fps  (training/scripts/extract_frames.py)
+Resize           : 640x640 letterbox (training time, Ultralytics)
+Timestamp overlay: har frame me hai - augmentation se handle kiya
+
+4. TRAIN-VAL SPLIT
+------------------
+VIDEO-WISE split, frame-wise NAHI. Ek video ke consecutive frames ~identical
+hote hain; random frame split se val accuracy jhooth bolegi aur test pe
+model fail karega.
+
+Val videos  : train_2, train_8 (spill) + train_6, train_10 (clean)
+Train / Val : 362 / 205 frames  =  0.64 / 0.36
+
+5. STATISTICS
+-------------
+Extracted frames  : 743  (567 train + 176 test) @ 2 fps
+Keyframes annotated : 18   (9 me spill, 9 clean)
+Annotated images  : 567  (keyframe masks propagate karke)
+Spill frames      : 260  (train_1,2,4,7,8)
+No-spill frames   : 307  (train_3,5,6,9,10,11,12)
+Class balance     : 46% / 54%  - balanced, koi resampling nahi
+
+KEYFRAME TRICK
+--------------
+Camera static hai AUR spill static hai, isliye 567 frames alag-alag annotate
+karne ki zaroorat nahi thi. 12 me se 9 videos poore video me <3% badalte hain
+(analysis/FINDINGS.md). Stable video = 1 keyframe, dynamic (train_1/7/12) = 3.
+Total 18 masks -> 567 labels. Annotation effort ~30x kam.
+
+6. AUGMENTATION
+---------------
+hsv_v=0.5        lighting 09:32-22:01 tak badalti hai
+hsv_s=0.7        camera color response alag hai
+scale=0.5        do resolutions ka gap paatne ke liye
+fliplr=0.5       horizontal flip safe hai
+degrees=5        halka camera tilt
+erasing=0.2      occlusion robustness
+flipud=0.0       NAHI - CCTV angle hamesha top-down hai
+close_mosaic=15  aakhri 15 epochs pe mosaic band (spill ka context tootta hai)

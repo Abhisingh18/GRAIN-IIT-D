@@ -1,0 +1,23 @@
+# Bade generated artifacts - extract_frames.py se dobara ban jaate hain
+dataset/frames_raw/
+dataset/frames_med/
+dataset/images/
+dataset/raw_videos
+
+# Raw Ultralytics run output (curated copy results/ me hai)
+training/results/
+
+# Bade output videos (predictions JSON + summary.csv repo me hain)
+inference/output_videos/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ultralytics ke auto-downloaded pretrained checkpoints (dobara mil jaate hain)
+yolo11s-seg.pt
+training/yolo11s-seg.pt
+training/weights/
+*.pt
+!models/trained_model_weights/*.pt

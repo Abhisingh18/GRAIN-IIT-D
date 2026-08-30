@@ -1,0 +1,32 @@
+# Training hyperparameters - Step 3 (Model Development and Training)
+model: yolo11s-seg.pt        # COCO-pretrained init
+data: grain_spill.yaml
+epochs: 150
+patience: 30
+batch: 16
+imgsz: 640
+device: 0                    # = physical GPU 10; env.sh CUDA_VISIBLE_DEVICES=10 set karta hai
+workers: 8
+optimizer: AdamW
+lr0: 0.001
+lrf: 0.01
+cos_lr: true
+warmup_epochs: 3
+freeze: 10                   # backbone freeze (chhota dataset)
+seed: 0
+
+# Augmentation
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.5                   # godown lighting 09:32-22:01 tak badalti hai
+degrees: 5.0
+translate: 0.1
+scale: 0.5
+fliplr: 0.5
+flipud: 0.0                  # CCTV angle fixed - vertical flip galat
+mosaic: 1.0
+close_mosaic: 15             # last 15 epochs pe band
+erasing: 0.2
+
+project: ../results
+name: yolo11s_seg_run1
